@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 35</title>
+</head>
+<body>
+<script>
+const mutants = [
+  { name: 'Wolverine', power: 'regeneration' },
+  { name: 'Magneto', power: 'magnetism' },
+  { name: 'Professor X', power: 'telepathy' },
+  { name: 'Jean Grey', power: 'telekinesis' },
+  { name: 'Rogue', power: 'power absorption' },
+  { name: 'Storm', power: 'weather manipulation' },
+  { name: 'Mystique', power: 'shape-shifting' },
+  { name: 'Beast', power: 'superhuman strength' },
+  { name: 'Colossus', power: 'steel skin' },
+  { name: 'Nightcrawler', power: 'teleportation' }
+];
+
+function findMutantByPower(mutants, power) {
+  for (const fig of mutants){
+    if (fig.power === power){
+        return "Si fue encontrado"
+    }
+    }
+    return "No fue encontrado"
+  }
+
+console.log(findMutantByPower(mutants, "telekinesis"))
+
+</script>
+</body>
+</html>

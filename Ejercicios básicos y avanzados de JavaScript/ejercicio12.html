@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 12</title>
+</head>
+<body>
+<script>
+
+const duplicates = [
+  'sushi',
+  'pizza',
+  'burger',
+  'potatoe',
+  'pasta',
+  'ice-cream',
+  'pizza',
+  'chicken',
+  'onion rings',
+  'pasta',
+  'soda'
+];
+
+function removeDuplicates(list) {
+    let sinduplicar = []
+  for (let i=0; i<duplicates.length; i++){
+if (!sinduplicar.includes(duplicates[i])) {
+      sinduplicar.push(duplicates[i]);}
+}
+return sinduplicar;
+}
+
+console.log(removeDuplicates(duplicates));
+
+</script>
+</body>
+</html>

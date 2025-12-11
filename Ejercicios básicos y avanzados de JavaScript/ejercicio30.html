@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 30</title>
+</head>
+<body>
+<script>
+const tracks = [
+  { title: 'Enter Sandman', genre: 'Metal' },
+  { title: 'Back in Black', genre: 'Rock' },
+  { title: 'Bohemian Rhapsody', genre: 'Rock' },
+  { title: 'Blinding Lights', genre: 'Pop' },
+  { title: 'Old Town Road', genre: 'Country' },
+  { title: 'Smells Like Teen Spirit', genre: 'Grunge' },
+  { title: 'Bad Guy', genre: 'Pop' },
+  { title: 'Thunderstruck', genre: 'Rock' },
+  { title: 'Hotel California', genre: 'Rock' },
+  { title: 'Stairway to Heaven', genre: 'Rock' }
+];
+let metal = [];
+let rock = [];
+let pop = [];
+let country = [];
+let grunge = [];
+for (const musica of tracks){
+  if (musica.genre === "Metal"){
+    metal.push(musica.title)
+  }
+  else if (musica.genre === "Rock" ){
+    rock.push(musica.title)
+  }
+  else if (musica.genre === "Pop"){
+    pop.push(musica.title);
+  }
+  else if (musica.genre === "Country"){
+    country.push(musica.title)
+  }
+  else if (musica.genre === "Grunge"){
+    grunge.push(musica.title)
+  }
+}
+console.log(metal);
+console.log(rock);
+console.log(pop);
+console.log(country);
+console.log(grunge);
+
+
+
+
+
+
+</script>
+</body>
+</html>

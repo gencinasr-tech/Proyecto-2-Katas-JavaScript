@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 10</title>
+</head>
+<body>
+<script>
+const numbers = [12, 21, 38, 5, 45, 37, 6];
+function average(numberList) {
+  let suma = 0;
+  for (let i = 0; i <numberList.length; i++){
+    suma = suma + numberList[i];
+  }
+  let dividir = numberList.length; 
+  let promedio = suma/dividir
+  return promedio
+}
+console.log(average(numbers));
+
+</script>
+</body>
+</html>
