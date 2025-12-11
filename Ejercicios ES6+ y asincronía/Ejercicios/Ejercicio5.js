@@ -1,0 +1,17 @@
+console.log("--- Ejercicio 5.1 ---");
+
+const streamers = [
+	{name: 'Rubius', age: 32, gameMorePlayed: 'Minecraft'},
+	{name: 'Ibai', age: 25, gameMorePlayed: 'League of Legends'},
+	{name: 'Reven', age: 43, gameMorePlayed: 'League of Legends'},
+	{name: 'AuronPlay', age: 33, gameMorePlayed: 'Among Us'}
+];
+
+const input = document.querySelector('[data-function="toFilterStreamers"]');
+input.addEventListener('input', (evento) => {
+    const textoBusqueda = evento.target.value;
+    const filtrados = streamers.filter(streamer => {
+        return streamer.name.includes(textoBusqueda);
+    });
+    console.log(filtrados);
+});
