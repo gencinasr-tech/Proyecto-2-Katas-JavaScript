@@ -1,0 +1,10 @@
+// --- ZONA DE EJERCICIOS ---
+import './Ejercicios/Ejercicio1.js'
+import './Ejercicios/Ejercicio2.js'
+import './Ejercicios/Ejercicio3.js'
+import './Ejercicios/Ejercicio4.js'
+import './Ejercicios/Ejercicio5.js'
+import './Ejercicios/Ejercicio6.js'
+import './Ejercicios/Ejercicio7.js'
+import './Ejercicios/Ejercicio8.js'
+import './Ejercicios/Ejercicio9.js'
